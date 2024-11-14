@@ -10,7 +10,7 @@ export default function Home() {
     <section className="flex items-center justify-center px-20 bg-behind-color">
       <div className="flex flex-col items-center text-center px-10">
         <figure>
-          <Image src={LogoGrande} alt="logo do projeto inteira" />
+          <Image src={LogoGrande} alt="logo do projeto inteira" className="w-96" />
         </figure>
         <p className={inter.className}>
           Somos um projeto de financiamento coletivo com o propósito de levar
@@ -22,6 +22,7 @@ export default function Home() {
         <Image
           src={fotoCriancas}
           alt="foto de crianças vendo um painel de energia solar"
+          className="w-full"
         />
       </figure>
     </section>
