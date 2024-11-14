@@ -1,5 +1,5 @@
-import LogoGrande from "@/public/logoGrande.png";
-import fotoCriancas from "@/public/escola.png";
+import LogoGrande from "@/public/img/logoGrande.png";
+import fotoCriancas from "@/public/img/escola.png"
 import Image from "next/image";
 import { Inter } from "next/font/google";
 
@@ -7,10 +7,10 @@ const inter = Inter({subsets: ['latin']})
 
 export default function Home() {
   return (
-    <section className="flex items-center justify-center px-20 bg-main-color">
-      <div className="flex flex-col items-center text-center px-10">
+    <section className="flex items-center justify-center px-40">
+      <div className="flex flex-col items-center text-center">
         <figure>
-          <Image src={LogoGrande} alt="logo do projeto inteira" />
+          <Image src={LogoGrande} alt="logo do projeto inteira" className="w-96" />
         </figure>
         <p className={inter.className}>
           Somos um projeto de financiamento coletivo com o propósito de levar
@@ -22,6 +22,7 @@ export default function Home() {
         <Image
           src={fotoCriancas}
           alt="foto de crianças vendo um painel de energia solar"
+          className="w-full"
         />
       </figure>
     </section>
