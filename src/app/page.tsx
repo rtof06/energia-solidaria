@@ -7,7 +7,7 @@ const inter = Inter({subsets: ['latin']})
 
 export default function Home() {
   return (
-    <section className="flex items-center justify-center px-20 bg-main-color">
+    <section className="flex items-center justify-center px-20 bg-behind-color">
       <div className="flex flex-col items-center text-center px-10">
         <figure>
           <Image src={LogoGrande} alt="logo do projeto inteira" />
