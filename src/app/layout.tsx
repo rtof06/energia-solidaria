@@ -14,10 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className="bg-behind-color">{children}</body>
-      <Footer/>
+      <body className="bg-behind-color">
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
-
-

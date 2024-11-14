@@ -7,12 +7,12 @@ const inter = Inter({subsets: ['latin']})
 
 export default function Home() {
   return (
-    <section className="flex items-center justify-center px-20 bg-behind-color">
-      <div className="flex flex-col items-center text-center px-10">
+    <section className="flex items-center justify-center bg-behind-color py-10">
+      <div className="flex flex-col items-center text-center">
         <figure>
           <Image src={LogoGrande} alt="logo do projeto inteira" className="w-96" />
         </figure>
-        <p className={inter.className}>
+        <p className={`${inter.className} px-40 text-gray-600`}>
           Somos um projeto de financiamento coletivo com o propósito de levar
           energia limpa e sustentável para escolas e postos de saúde da rede
           pública, conscientizando a população e respeitando o meio ambiente.
