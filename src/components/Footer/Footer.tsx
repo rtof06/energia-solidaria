@@ -18,7 +18,7 @@ export default function Footer() {
   ];
 
   return (
-    <div className="flex justify-between max-sm:flex-col max-sm:items-center p-5 bg-main-color-low-opacity text-center">
+    <footer className="bg-main-color flex justify-between max-sm:flex-col max-sm:items-center p-5 bg-main-color-low-opacity text-center">
       <div className="mb-5">
         <p className="text-lg font-bold">Siga nas redes sociais:</p>
         <ul className="list-none p-0 flex justify-center">
@@ -33,11 +33,10 @@ export default function Footer() {
       </div>
       <div className="flex flex-col justify-center items-center">
         <div className="flex">
-          <Image src={logoPorto} alt="Logo da Porto" width={40} height={20} />
           <Image src={logoAmplexus} alt="Logo da Amplexus" width={40} height={20} />
         </div>
         <p className="text-sm text-gray-600">© 2024 Porto & FIAP</p>
       </div>
-    </div>
+    </footer>
   );
 }

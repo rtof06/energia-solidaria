@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Footer from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
   title: "Projeto Energia Solidária",
@@ -14,6 +15,9 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className="bg-behind-color">{children}</body>
+      <Footer/>
     </html>
   );
 }
+
+
