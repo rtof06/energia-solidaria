@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import logo2 from "@/public/logo2.png"
+import logo2 from "@/public/img/logo2.png"
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { Inter } from "next/font/google";
