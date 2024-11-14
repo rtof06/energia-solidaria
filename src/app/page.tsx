@@ -1,5 +1,5 @@
-import LogoGrande from "@/public/logoGrande.png";
-import fotoCriancas from "@/public/escola.png";
+import LogoGrande from "@/public/img/logoGrande.png";
+import fotoCriancas from "@/public/img/escola.png";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 
@@ -7,7 +7,7 @@ const inter = Inter({subsets: ['latin']})
 
 export default function Home() {
   return (
-    <section className="flex items-center justify-center px-20 bg-main-color">
+    <section className="flex items-center justify-center px-20 bg-behind-color">
       <div className="flex flex-col items-center text-center px-10">
         <figure>
           <Image src={LogoGrande} alt="logo do projeto inteira" />
