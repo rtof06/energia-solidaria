@@ -3,14 +3,14 @@ import { NextResponse } from 'next/server';
 export async function PUT(request: Request) {
 
   try {
-    const { nome, sobrenome, email, telefone, password } = await request.json();
+    const { codigo, nome, sobrenome, idade, email, telefone, numLogradouro, compLogradouro, password } = await request.json();
 
     const response = await fetch(`http://localhost:8080/projeto-energia-solidaria/api/clientes/cadastro`, {
-      method: 'POST',
+      method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ nome, sobrenome, email, telefone, password }),
+      body: JSON.stringify({ codigo, nome, sobrenome, idade, email, telefone, compLogradouro, numLogradouro, password }),
     });
 
     if (response.ok) {
