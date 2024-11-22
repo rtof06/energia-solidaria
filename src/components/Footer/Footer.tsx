@@ -9,17 +9,17 @@ import logoAmplexus from "@/public/img/logo-amplexus.png";
 
 export default function Footer() {
   const redesSociais = [
-    { id: "instagram", link: "https://instagram.com/porto", img: Instagram, alt: "Logo Instagram" },
-    { id: "twitter", link: "https://twitter.com/portoseguro", img: Twitter, alt: "Logo X" },
-    { id: "tiktok", link: "https://tiktok.com/@portoseguro", img: TikTok, alt: "Logo TikTok" },
-    { id: "linkedin", link: "https://linkedin.com/company/porto", img: Linkedin, alt: "Logo LinkedIn" },
-    { id: "youtube", link: "https://youtube.com/portoseguro", img: Youtube, alt: "Logo Youtube" },
-    { id: "facebook", link: "https://www.facebook.com/porto", img: Facebook, alt: "Logo Facebook" }
+    { id: "instagram", link: "https://instagram.com/fiap", img: Instagram, alt: "Logo Instagram" },
+    { id: "twitter", link: "https://twitter.com/fiap", img: Twitter, alt: "Logo X" },
+    { id: "tiktok", link: "https://tiktok.com/@fiap", img: TikTok, alt: "Logo TikTok" },
+    { id: "linkedin", link: "https://linkedin.com/company/fiap", img:Linkedin, alt: "Logo LinkedIn" },
+    { id: "youtube", link: "https://youtube.com/fiap", img: Youtube, alt: "Logo Youtube" },
+    { id: "facebook", link: "https://www.facebook.com/fiap", img: Facebook, alt: "Logo Facebook" }
   ];
 
   return (
     <footer className="bg-main-color flex justify-between max-sm:flex-col max-sm:items-center p-5 bg-main-color-low-opacity text-center">
-      <div className="mb-5">
+      <div>
         <p className="text-lg font-bold">Siga nas redes sociais:</p>
         <ul className="list-none p-0 flex justify-center">
           {redesSociais.map((rede) => (
