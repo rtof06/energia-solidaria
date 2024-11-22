@@ -1,15 +1,10 @@
 "use client";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 type DevelopersProps = {
   name: string;
   rm: string;
-  role: string;
-  img: string;
-  alt: string;
-  linkedin: string;
-  github: string;
-  instagram: string;
+  img: string | StaticImageData
 };
 
 export default function Developers({ name, rm, img }: DevelopersProps) {
