@@ -59,7 +59,7 @@ Implementa a validação de senha. Contém:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/usuario/repositorio.git
+   git clone https://github.com/rtof06/projeto-energia-solidaria.git
    ```
 2. Instale as dependências:
    ```bash
